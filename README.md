@@ -17,6 +17,15 @@ Installation
 
 Just make sure that chebfun is in the Matlab path.
 
+Usage
+-----
+
+In order to produce the numerical experiments from [1], run the following scripts:
+* Problem 1 - Heat equation in 3D --> Heat_3D.m
+* Problem 2 - Advection-di usion problem with a Sishkin mesh --> AdvDiff_2D.m
+* Problem 3 - Hochbruck-Ostermann equation --> HochOster_2D_gauss.m (phiquadmv and Gauss quadrature), 
+                                               HochOster_2D_cheb.m (phiquadmv and Clenshaw-Curtis quadrature) and HochOster_2D_expmv.m (expmv routine)
+
 References
 ----------
 
